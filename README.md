@@ -6,9 +6,9 @@ _Make sure that you have [sbt installed](http://www.scala-sbt.org/0.13/tutorial/
 
 For the best experience, install as a global sbt plugin, by creating a new file at `~/.sbt/0.13/plugins/g8SuperPlugin.sbt` containing:
 ```scala
-TBD
+addSbtPlugin("io.github.darkyenus" % "g8superplugin" % "1.0")
 ```
-_Or you can append these lines into your `plugins.sbt` file, [it does not really matter](http://www.scala-sbt.org/0.13/tutorial/Using-Plugins.html)_
+_Or you can append it into your `plugins.sbt` file, [it does not really matter](http://www.scala-sbt.org/0.13/tutorial/Using-Plugins.html)_
 
 ## Usage
 Simply fire up sbt wherever you want to create a new project from [g8 template](https://github.com/n8han/giter8/wiki/giter8-templates) and use the `g8` command as usual.
